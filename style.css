@@ -1,0 +1,36 @@
+/* General Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Custom Translucent Overlay for Hero text clarity */
+.bg-dark-translucent {
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+/* Hero Carousel Custom Heights and Visual placeholders */
+.carousel-item {
+    height: 60vh;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Dynamic background gradients matching an administrative interface */
+.slide-1 {
+    background: linear-gradient(135deg, #11998e, #38ef7d);
+}
+
+.slide-2 {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+/* Smooth Card Hover Interactions */
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
